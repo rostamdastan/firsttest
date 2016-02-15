@@ -8,6 +8,7 @@ public class Startingpoint
   private JFrame frame;
   private JButton button;
 
+
   public static void main (String[] args) 
   {
     Startingpoint guiButton = new Startingpoint();
@@ -35,7 +36,7 @@ public class Startingpoint
         String textToShow;
         textToShow = JOptionPane.showInputDialog(
                 frame,
-                "Enter the text you want to display:",
+                "Enter the text you want to display Please:",
                 "Input Dialog",
                 JOptionPane.QUESTION_MESSAGE);
         if (textToShow != null)
